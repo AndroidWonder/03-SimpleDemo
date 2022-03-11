@@ -2,6 +2,7 @@ package com.course.example.simpledemo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.widget.TextView;
 
@@ -27,6 +28,7 @@ public class SimpleDemo extends Activity {
 		switch (keyCode) {
 		case KeyEvent.KEYCODE_X:
 			text.setText("X");
+			Log.i("Simple", "X was typed");
 			break;
 		case KeyEvent.KEYCODE_Y:
 			text.setText("Y");
