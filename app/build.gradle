@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdk 31
-    buildToolsVersion '32.0.0'
+    compileSdk 33
+    buildToolsVersion '33.0.1'
 
     defaultConfig {
         applicationId "com.course.example.simpledemo"
         minSdkVersion 26
-        targetSdkVersion 31
+        targetSdkVersion 33
     }
 
     buildTypes {
