@@ -1,8 +1,9 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdk 34
+
 
     defaultConfig {
+        compileSdk 34
         applicationId "com.course.example.simpledemo"
         minSdkVersion 33
         targetSdkVersion 33
