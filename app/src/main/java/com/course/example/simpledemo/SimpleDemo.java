@@ -37,7 +37,7 @@ public class SimpleDemo extends Activity {
 			text.setText("Z");
 			break;
 		default:
-			text.setText("Click X, Y, or Z ");
+			text.setText("Click X, Y, or Z");
 		}
 		return true;
 	}
