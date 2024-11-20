@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdk 35
+
 
     defaultConfig {
         applicationId "com.course.example.simpledemo"
@@ -15,7 +15,7 @@ android {
         }
     }
     namespace 'com.course.example.simpledemo'
-
+    compileSdk 35
 }
 dependencies {
 
